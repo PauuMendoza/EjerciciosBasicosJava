@@ -15,10 +15,15 @@ public class Ejercicio10_MostrarNumerosWhile {
     public static void main(String[] args) {
         
         int numeros=0;
-        numeros++;
-        while(numeros){
+        
+        while(true){
+            numeros++;
             System.out.println(numeros);
-        }
+            if(numeros==100){
+                break;
+            }
+        } 
+        
         
     }
     
