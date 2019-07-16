@@ -5,6 +5,8 @@
  */
 package pkg1.operaciones;
 
+import java.util.Scanner;
+
 /**
  *
  * @author Paulina
@@ -15,19 +17,35 @@ public class Ejercicio12_NumerosDivisibles {
     
     public static void main(String[] args) {
         
-         int numeros=0;
+         int number = 0, modulo;
          
-        while(true){
-              numeros++;
-              if(numeros==100){
-             numeros %=2;
-                  System.out.println(numeros);
+         while(number<=100){
+             number++;
+             
+             //modulo=numero%2;
+             
+            if(number%2==0 || number%3==0){
+                 System.out.println(number);
+             }
+             
+                 
+             
+             }
+         }
+             
+         
+           
+                  
+                  
+                  
+                  
+                  
             
-              }
+              
         }
           
-            }
-        } 
+            
+       
         
         
     
