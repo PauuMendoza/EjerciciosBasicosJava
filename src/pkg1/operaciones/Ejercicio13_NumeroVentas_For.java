@@ -16,7 +16,7 @@ import javax.swing.JOptionPane;
  * indicado. Al final mostrara la suma de todas las ventas. Piensa que es lo 
  * que se repite y lo que no.
  */
-public class Ejercicio13_NumeroVentas {
+public class Ejercicio13_NumeroVentas_For {
     
     public static void main(String[] args) {
         
