@@ -17,7 +17,7 @@ Un buen truco para calcular la raíz cuadrada del numero e ir comprobando que si
 * es divisible desde ese numero hasta 1.
 NOTA: Si se introduce un numero menor o igual que 1, directamente es no primo.
  */
-public class Ejercicio20_NumeroPrimo {
+public class Ejercicio20_NumeroPrimo_IfWhile {
     
     public static void main(String[] args) {
         Scanner imput=new Scanner(System.in);
@@ -25,20 +25,26 @@ public class Ejercicio20_NumeroPrimo {
         System.out.println("Enter a number: ");
         int num = imput.nextInt();
         
-        if(num>1){
-            int result= num %2;
-            if(result<=0){
-                System.out.println("es primo");
-            }
-            
-        }else{
-            System.out.println("no es primo");
+        if(num!=1){
+        int num2 = num-1;
+        
+        
+        while(num%num2!=0){
+            num2--;
         }
+            if(num2==1){
+                System.out.println(+num+" It`s a prime number");
+            }else{
+                System.out.println(+num+" It is not a prime number");
+            }
+        }
+        
+    }
         
         
         }
    
-    }
+    
     
     
 
