@@ -5,19 +5,21 @@
  */
 package pkg1.operaciones;
 
-import javax.swing.JOptionPane;
-
 /**
  *
  * @author Paulina
+ * 33) Dada una cadena, extraer la cuarta y quinta letra usando el método substring.
  */
-public class NewClass {
+public class Ejercicio33_ExtraccionLetras {
     
     public static void main(String[] args) {
-        
-         String cadena="Hola mundo";
-         
-        System.out.println("La cadena tiene "+cadena.length()+" caracteres");
-    }
     
+    String chain = "gato";
+    
+    int lo = chain.length();
+    
+    System.out.println(chain.substring(3));
+    
+    
+    }
 }
